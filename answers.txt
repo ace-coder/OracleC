@@ -1,0 +1,18 @@
+Answer to questions:
+(a) How many commits have been done to the repository?
+	6 commits so far
+(b) When was the file .gitignore modified last? 
+	 Mon Aug 24 12:19:51 2015 -0400
+(c) List the Files, which were in the repository on 08/21/2015 at 11:00PM.
+	There were no files at that time.
+(d) How many times was each of the Files inside the src folder modified?
+	One time
+(e) What is the difference between git log and git status?
+	git log provides commit history of the project and git status displays the state of the working directory and the staging area.
+(f) What command would you use to see the commits where \main.java" was one of the committed files?
+	git log main.java
+(g) What command would you use to see the commits whose commit message contains the word \transaction"?
+	git log --grep="transaction"
+h) What command would you use to see the commits made by \Lauren" between 01/05/2014 and 06/14/2015?
+	git log --author="Lauren" --after="01/04/2014" --before="07/15/2015"
+	
