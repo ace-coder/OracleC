@@ -110,7 +110,7 @@ int main() {
     cout << "Ordered Woods: " << endl;
 
     for (std::vector<WoodItem>::iterator it = wood_items.begin(); it != wood_items.end(); ++it) {
-        cout << "\t Wood type: " << left << setw(15) << (*it).type << "\t Amount: " << (*it).amount << "\t Price: " << ShowCurrencyFormat((*it).price) << endl;
+        cout << "\t Wood type: " << left << setw(15) << (*it).type << "\t BF Amount: " << (*it).amount << "\t Price: " << ShowCurrencyFormat((*it).price) << endl;
     }
 
     cout << "Total price: " << ShowCurrencyFormat(total_price) << ", Delivery time: " << delivery_time << " hour(s)";
