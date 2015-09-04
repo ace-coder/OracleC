@@ -1,31 +1,30 @@
-/*
- * WoodItem.h
+/* 
+ * File:   WoodItem.h
+ * Author: Md Mainuddin
  *
- *  Created on: Aug 24, 2015
- *      Author: Esteban
+ * Created on September 3, 2015, 10:45 PM
  */
-
 
 #include <string.h>
 #include <iostream>
 #include <fstream>
 #include <sstream>
 
-#ifndef WOODITEM_H_
-#define WOODITEM_H_
+#ifndef WOODITEM_H
+#define	WOODITEM_H
 
 class WoodItem {
-
 public:
+    std::string type;
+    double amount;
+    double price;
 
-	std::string type;
-	double baseDeliveryTime;
-	double price;
-
-	// Member functions declaration
-	WoodItem();
-	WoodItem(std::string woodType, double deliveryTime, double itemPrice);
+    // Member functions declaration
+    WoodItem();
+    WoodItem(std::string woodType, double amount, double itemPrice);
+    virtual ~WoodItem();
+private:
 
 };
 
-#endif /* WOODITEM_H_ */
+#endif	/* WOODITEM_H */
