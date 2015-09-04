@@ -21,7 +21,7 @@ public:
 
     // Member functions declaration
     WoodItem();
-    WoodItem(std::string woodType, double amount, double itemPrice);
+    WoodItem(std::string woodType, double woodAmount, double itemPrice);
     virtual ~WoodItem();
 private:
 

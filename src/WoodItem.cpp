@@ -17,9 +17,9 @@ WoodItem::WoodItem() {
  * Method to initialize a tic tac toe game
  * Initializes board and turn
  */
-WoodItem::WoodItem(std::string woodType, double amount, double itemPrice) {
+WoodItem::WoodItem(std::string woodType, double woodAmount, double itemPrice) {
     type = woodType;
-    amount = amount;
+    amount = woodAmount;
     price = itemPrice;
 }
 
